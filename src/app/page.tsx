@@ -3,8 +3,8 @@
 import Counter from "@/components/Counter";
 import CursorTrailCanvas from "@/components/CursorTrailCanvas";
 import Events from "@/components/Events";
-import FAQ from "@/components/Faq";
-import HackathonRegistration from "@/components/HackathonRegistration";
+import AboutDevhost from "@/components/AboutDevhost";
+import AboutHackathon from "@/components/AboutHackathon";
 import Hero from "@/components/Hero";
 import Map from "@/components/Map";
 import Schedule from "@/components/Schedule";
@@ -41,6 +41,8 @@ export default function Home() {
         </div>
         <Counter />
         <Schedule />
+        <AboutDevhost />
+        <AboutHackathon />
         <Events />
         <Speakers />
       </div>
